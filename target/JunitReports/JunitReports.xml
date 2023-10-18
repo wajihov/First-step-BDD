@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.455">
-    <testcase classname="feature to test login functionality" name="Check login is successful with valid credentials" time="0.146">
-        <system-out><![CDATA[Given user is in login page.................................................passed
-When user enters username and password......................................passed
-And clicks on login button..................................................passed
-Then user is navigated to the home page.....................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="17.627">
+    <testcase classname="feature to test Google search functionality" name="Validate google search is working" time="17.305">
+        <system-out><![CDATA[Given browser is open.......................................................passed
+And user is in search page..................................................passed
+When user entres one text in search box.....................................passed
+And hits enter..............................................................passed
+Then user is navigated to search results....................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
